@@ -52,6 +52,3 @@ print(f"Humidity: {humidity}%")
 
 print(f"Sunrise: {sunrise}")
 print(f"Sunset: {sunset}")
-
-
-show_data()
