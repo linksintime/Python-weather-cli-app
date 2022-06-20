@@ -31,7 +31,7 @@ weather_data = json.loads(dataDump)
 errCheck(weather_data)
 
 # weather_descriptions = {"🌤",["🌦"],["⛆"],["⛈"],["☀"],["🌨"],["☁"],["☂"],["☄"],["⛇"],["⛈"],["🌥"],["🌩"],["🌧"],["🌩"]}
-weather_descriptions = {'clear sky': "☀", 'scattered clouds': "🌤 ☁ ☁", 'mist': "⛆⛆⛆", 'overcast clouds': "🌤", 'broken clouds': "☁ ☁ ☁"}
+weather_descriptions = {'clear sky': "☀", 'scattered clouds': "🌤 ☁ ☁", 'mist': "⛆⛆⛆", 'overcast clouds': "🌤", 'broken clouds': "☁ ☁ ☁", "light rain": "🌤 ⛆"}
 
 sunrise = time.ctime(weather_data['sys']['sunrise'])
 sunset = time.ctime(weather_data['sys']['sunset'])
