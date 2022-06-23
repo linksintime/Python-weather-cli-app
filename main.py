@@ -61,7 +61,7 @@ for j in cities:
     #print(f"Humidity: {humidity}%\n")
     #print(f"Sunrise: {sunrise}")
     #print(f"Sunset: {sunset}")
-with open("errorCities.txt", "w", encoding="utf-8") as badCity:
+with open("errorCities.txt", "a", encoding="utf-8") as badCity:
     for i in errCities: badCity.writelines(i)
 
 timeStop = time.time
