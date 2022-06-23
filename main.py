@@ -65,6 +65,7 @@ with open("errorCities.txt", "a", encoding="utf-8") as badCity:
     for i in errCities: badCity.writelines(i)
 
 timeStop = time.time
+# Added timing for optimization purposes in debugging
 totalTime = timeStop - timeStart
 print(errCities)
 print(totalTime)
