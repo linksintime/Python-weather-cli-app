@@ -61,7 +61,7 @@ city = weather_data['name']
 description = [i for i in weather_data['weather']]
 description = description[0]['description']
 
-### What user actually sees
+"""What user actually sees"""
 
 # Current weather description and city
 print(f"{color.BOLD}Current weather in: {color.END}{color.BLUE}{city}{color.END}\n")
